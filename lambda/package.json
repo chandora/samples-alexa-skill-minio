@@ -1,0 +1,23 @@
+{
+  "name": "walking-coach",
+  "version": "1.2.0",
+  "description": "alexa skill for demonstrating reminder usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "debug": "node --inspect server.js"
+  },
+  "author": "Amazon Alexa",
+  "license": "Apache License",
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.19.0",
+    "aws-sdk": "^2.326.0",
+    "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "ask-sdk-express-adapter": "^2.10.2",
+    "express": "^4.17.1"
+  }
+}
