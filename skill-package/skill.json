@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:446519348934:function:730ce80b-509b-4bc8-ad05-ea8a1230b760:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::alerts:reminders:skill:readwrite"
+      }
+    ],
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "ja-JP": {
+          "description": "リマインダーの使い方を紹介するサンプル・スキルです",
+          "examplePhrases": [
+            "アレクサ、散歩コーチでリマインドして",
+            "アレクサ、散歩コーチで記録して",
+            "アレクサ、散歩コーチでリマインダーを解除して"
+          ],
+          "keywords": [],
+          "name": "alexa-skill-reminder",
+          "summary": "リマインダーのサンプル・スキル"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions. 1"
+    }
+  }
+}

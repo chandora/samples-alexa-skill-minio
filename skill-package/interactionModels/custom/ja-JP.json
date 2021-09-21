@@ -1,0 +1,55 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "散歩コーチ",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "EnableReminderIntent",
+          "slots": [],
+          "samples": [
+            "リマインダーを開始して",
+            "リマインドして"
+          ]
+        },
+        {
+          "name": "RecordTaskIntent",
+          "slots": [],
+          "samples": [
+            "散歩に行ってきた",
+            "散歩してきた",
+            "記録して",
+            "散歩を記録して"
+          ]
+        },
+        {
+          "name": "DisableReminderIntent",
+          "slots": [],
+          "samples": [
+            "リマインダーを削除して",
+            "リマインダーを取り消して",
+            "リマインドしないで",
+            "リマインダーを解除して"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "2"
+}
